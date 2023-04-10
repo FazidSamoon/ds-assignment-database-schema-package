@@ -1,0 +1,19 @@
+{
+  "name": "ds-assignment-database-schema-package",
+  "version": "1.0.0",
+  "description": "ds assignment database schema package ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FazidSamoon/ds-assignment-database-schema-package.git"
+  },
+  "author": "fazid-samoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FazidSamoon/ds-assignment-database-schema-package/issues"
+  },
+  "homepage": "https://github.com/FazidSamoon/ds-assignment-database-schema-package#readme"
+}
