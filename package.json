@@ -1,6 +1,6 @@
 {
   "name": "ds-assignment-database-schema-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ds assignment database schema package ",
   "type": "module",
   "main": "index.js",
