@@ -1,14 +1,14 @@
-import mongoose from "mongoose";
+import Mongoose from "mongoose";
 
-const DeliverySchema = new mongoose.Schema(
+const DeliverySchema = new Mongoose.Schema(
   {
     userID: {
-      type: mongoose.Schema.Types.ObjectId,
+      type: Mongoose.Schema.Types.ObjectId,
       required: true,
       ref: "User",
     },
     orderID: {
-      type: mongoose.Schema.Types.ObjectId,
+      type: Mongoose.Schema.Types.ObjectId,
       required: true,
       ref: "Order",
     },
@@ -30,5 +30,5 @@ const DeliverySchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const DeliveryModel = mongoose.model("Cart", DeliverySchema);
+const DeliveryModel = Mongoose.model("Cart", DeliverySchema);
 export { DeliveryModel };
